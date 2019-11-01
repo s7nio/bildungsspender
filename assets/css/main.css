@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 0em 0 0.1em 0 ;
 	}
 
 		#header .logo {
