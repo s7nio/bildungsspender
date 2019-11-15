@@ -1,0 +1,29 @@
+baseURL = "https://bildungsspender.s7n.io/"
+languageCode = "en-us"
+title = "offensive Krümel - Bildungsspender"
+theme = "hugrid"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "offensive Krümel - Bildungsspender"
+    subtitle = "Just a fast version... for affiliate links"
+    author = ""
+    description = ""
+    keywords = ""
+
+    # Body background color
+    bodybgcolor = "#ffffff"
+
+    # Preview container button text
+    buttontext = "go shopping"
+
+    # Footer text
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
+
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
