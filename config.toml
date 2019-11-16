@@ -10,8 +10,8 @@ publishdir = "public"
 
 [params]
     # Meta
-    title = "offensive Krümel - Bildungsspender"
-    subtitle = "Just a fast version... for affiliate links"
+    title = "offensive Krümel"
+    subtitle = "[Bildungsspender - just the fast version for affiliate links](https://www.bildungsspender.de/offensive-kruemel)"
     author = ""
     description = ""
     keywords = ""
@@ -23,7 +23,7 @@ publishdir = "public"
     buttontext = "go shopping"
 
     # Footer text
-    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io), [Theme](https://github.com/aerohub)"
 
     # add extra-css
     # custom_css = ['css/extra1.css', 'css/extra2.css']
