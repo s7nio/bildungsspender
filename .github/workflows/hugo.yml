@@ -32,9 +32,9 @@ jobs:
 
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
-      with:
+      env:
         # FTP server name (you may need to specify a port)
-        ftp_server: w0067dbd.kasserver.com
+        FTP_SERVER: w0067dbd.kasserver.com
         # FTP account username
         ftp_username: ${{ secrets.FTP_USER }}
         # FTP account password
