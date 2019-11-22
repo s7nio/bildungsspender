@@ -21,6 +21,7 @@
 	outline: none;
 	display: block;
 	position: relative;
+	height: 50px;
 }
 
 .og-grid li.og-expanded > a::after {
