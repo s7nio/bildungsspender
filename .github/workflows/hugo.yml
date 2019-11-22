@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Set up Go 1.13
-      uses: actions/setup-go@v1
-      with:
-        go-version: 1.13
-      id: go
+#    - name: Set up Go 1.13
+#      uses: actions/setup-go@v1
+#      with:
+#        go-version: 1.13
+#      id: go
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@master
@@ -30,15 +30,15 @@ jobs:
     - name: List output files
       run: ls
 
-#    - name: FTP Deploy
-#      uses: SamKirkland/FTP-Deploy-Action@2.0.0
-#      with:
-#        # FTP server name (you may need to specify a port)
-#        ftp_server: 
-#        # FTP account username
-#        ftp_username: 
-#        # FTP account password
-#        ftp_password: 
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      with:
+        # FTP server name (you may need to specify a port)
+        ftp_server: ${{ secrets.FTP_SERVER }}
+        # FTP account username
+        ftp_username: ${{ secrets.FTP_USER }}
+        # FTP account password
+        ftp_password: ${{ secrets.FTP_PASSWORD }}
 #        # Protocol used to deploy (ftp or sftp)
 #        #method: # optional, default is ftp
 #        # The port used to connect to server
