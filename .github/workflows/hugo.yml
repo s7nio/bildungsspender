@@ -24,6 +24,9 @@ jobs:
         # Download (if necessary) and use Hugo extended version. Example: true
         extended: false # optional, default is false
 
+    - name: Hugo generate
+      run: hugo
+
     - name: List output files
       run: ls
 
